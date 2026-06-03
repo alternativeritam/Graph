@@ -14,7 +14,7 @@ void dfs(vector<vector<int>> &grid,vector<vector<bool>> &vis,int row,int col){
 
 		int i=q.front().first;
 		int j=q.front().second;
-
+		q.pop()
 		for(int drow=-1;drow<=1;drow++){
 			for(int dcol=-1;dcol<=1;dcol++){
 				int nrow = i+drow;
